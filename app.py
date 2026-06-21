@@ -10,7 +10,7 @@ st.divider()
 age=st.slider('seect your age')
 gender=st.selectbox('gender:',['Male','Female'])
 bmi=st.number_input('BMI  body mass index',min_value=10, max_value=60, value=25)
-children=st.selectbox('children'[0,1,2,3,4,5])
+children=st.selectbox('children,[0,1,2,3,4,5]')
 smoker=st.selectbox('Do you smoke?',['No','Yes'])
 region = st.selectbox(" select your  Region :", ["Northeast", "Northwest", "Southeast", "Southwest"])
 
