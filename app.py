@@ -5,6 +5,7 @@ import pandas as pd
 with open('insurance_model_by_Aein.pkl','rb')as file:
   model=pickle.load(file)
 st.title('Insurance Charges Prediction')
+st.caption("Developed by AEIN")
 st.divider()
 
 age=st.slider('seect your age')
